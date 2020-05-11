@@ -46,7 +46,7 @@
         </b-row>
         <b-row class="pt-3">
           <b-col>
-            <b-button block type="reset" variant="warning">Atras</b-button>
+             <nuxt-link to="/" class="btn btn-warning btn-block">Atras</nuxt-link>
           </b-col>
           <b-col>
             <b-button block type="submit" variant="primary">Guardar</b-button>
