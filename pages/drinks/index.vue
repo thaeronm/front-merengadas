@@ -8,8 +8,7 @@
               <b-badge variant="primary" class="m-1" v-for="fruit in drink.fruits" :key="fruit._id">{{fruit.name}}</b-badge>
               <p class="mt-2">Liquido: </p>
               <p>{{drink.liquid.name}} - Calorias: {{drink.liquid.calories}} ml</p>
-              <p>Proteina: </p>
-              <p>{{drink.protein.name}}</p>
+              <p>Proteina: {{drink.protein.name}}</p>
               <b-button-group>
                 <b-button variant="success">
                   <i class="fa fa-heart"></i> Sabor: {{drink.taste}}
