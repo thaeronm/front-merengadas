@@ -53,7 +53,7 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
-    baseURL:'http://localhost:2000/api'
+    baseURL:'https://back-merengadas.herokuapp.com/api'
   },
   /*
   ** Build configuration
